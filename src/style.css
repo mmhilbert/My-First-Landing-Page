@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+#headerSection {
+    padding: 0 100px 25px 100px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logoText {
+    font-size: 24px;
+    color: f9faf8;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+ul li {
+    display: inline-flex;
+    gap: 8px;
+    font-size: 12px;
+}
+
+ul a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    gap: 16px;
+
+}
+
+.heroText {
+    width: 50%;
+}
+
+.heroImage {
+    width: 50%;
+    max-width: 400px;
+}
+
+.primaryButton {
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    padding: 3px 16px;
+
+}
+
+#infoSection {
+    padding: 10px 200px 100px 200px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  20px;
+    font-size: small;
+}
+.box {
+    display: flex;
+    border: 3px solid #3882f6;
+    height: 110px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#blockQuoteSection {
+    background-color: #e5e7eb;
+    padding: 25px 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.blockQuote {
+    margin: 0px;
+}
+
+#blockQuoteSection p {
+    font-style: italic;
+    color: 1f2937;
+    font-weight: lighter;
+    font-size: 16px;
+
+}
+
+#blockQuoteSection footer {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: end;
+}
+
+#callToActionSection {
+    padding: 50px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.blueBox {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #3882f6;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 6px;
+}
+
+.blueBoxText {
+    flex-grow: 3;
+    color: white
+    
+}
+
+.blueBoxText h4, .blueBoxText p {
+    margin: 0px;
+}
+
+.blueBoxText p {
+    font-size: x-small;
+}
+
+.blueBoxButton {
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.secondaryButton {
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    padding: 3px 16px;
+    border-radius: 5px;
+}
+
+.footerBottom {
+    text-align: center;
+    font-size: 12px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
